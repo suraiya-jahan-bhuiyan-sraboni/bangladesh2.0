@@ -328,3 +328,21 @@ th {
 .bt{
     border-radius: 0px 8px 8px 0px;
 }
+footer{
+    padding:50px 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    background: #FFF;
+}
+hr{
+    border: 1px solid rgba(14, 14, 14, 0.10);
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
