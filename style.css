@@ -7,26 +7,40 @@
     font-family: "Fira Sans";
 }
 
+body {
+    background: #F5F5F5;
+}
+
 header>nav {
-    padding: 1rem 10rem;
+    padding: 1rem 8rem;
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.5rem;
 }
 
 header>nav>button {
-    color: #006A50;
+    background-color: transparent;
     text-align: center;
-    background-color: white;
+    border: 1.5px solid #006A50;
+    color: #006A50;
     font-size: 1.1rem;
     font-weight: 600;
     border-radius: 8px;
-    border: 1px solid #006A50;
+    padding: 1rem 2rem;
+}
+
+.explore {
+    background-color: #006A50;
+    text-align: center;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
     padding: 1rem 2rem;
 }
 
 .hero-section {
-    margin: 0 10rem;
+    margin: 0 8rem;
     padding: 3.2rem;
     border-radius: 24px;
     background: #C6E4D6;
@@ -69,11 +83,216 @@ header>nav>button {
     font-weight: 700;
 }
 
-.explore {
+.btn {
     color: #FFF;
     font-size: 1rem;
     font-weight: 600;
     padding: 1rem 2rem;
     border-radius: 8px;
-    background: #006A50;
+}
+
+.pillar-section {
+    margin: 3.5rem 8rem;
+}
+
+.cards {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card {
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+.card-text {
+    color: rgba(14, 14, 14, 0.70);
+    font-family: "Fira Sans";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.future-vision {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 8rem;
+    margin-bottom: 2rem;
+}
+
+.vision-card {
+    flex: 1;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 1rem;
+}
+
+.blue {
+    border: 0px solid #5490F5;
+    background: rgba(84, 144, 245, 0.20);
+}
+
+.green {
+    border: 0px solid #09A15C;
+    background: #C6E4D6;
+}
+
+.yellow {
+    border: 0px solid #FFC239;
+    background: #F7EBCF;
+}
+
+.ble {
+    background: #5490F5;
+}
+
+.grn {
+    background: #09A15C;
+}
+
+.ylw {
+    background: #FFC239;
+}
+
+.younus {
+    margin: 0 8rem;
+    padding: 2rem 1rem;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: white;
+}
+
+.younus-inner {
+    background: url('assets/quote-bg.png') left top no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.table-box {
+    background: white;
+    border-radius: 16px;
+    padding: 2rem;
+}
+
+table {
+    width: 100%;
+    font-weight: 600;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 24px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+
+th {
+    padding: 1rem;
+    border: 1px solid #dddddd;
+    background: #C6E4D6;
+    text-align: start;
+}
+
+.dp {
+    text-align: center;
+}
+
+.agree {
+    border-radius: 4px;
+    border: 1px solid #0E0E0E;
+    background: #C6E4D6;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+}
+
+.recent-news {
+    border-radius: 24px;
+    background-color: #FFF;
+    padding: 2rem;
+    gap: 2rem;
+    display: flex;
+}
+
+.news-img {
+    width: 40%;
+    border-radius: 24px;
+
+}
+
+.news-img>img {
+    height: 100%;
+    width: 100%;
+    border-radius: 24px;
+    object-fit: contain;
+}
+
+.news-area {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7rem;
+
+}
+
+.ne {
+    font-size: 0.8rem;
+}
+
+.neb {
+    font-size: 0.8rem;
+}
+
+.newsbox2 {
+    flex-direction: row-reverse;
+}
+
+.donate {
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.donate .cards .card>p {
+    color: rgba(14, 14, 14, 0.80);
+    font-family: "Fira Sans";
+    font-size: 2.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.crd:hover{
+    background: #C6E4D6;
+}
+.donate>input {
+    width: 75%;
+    padding: 20px 40px;
+    text-align: center;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: #FFF;
 }
